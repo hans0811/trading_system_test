@@ -125,3 +125,7 @@ docker run -d \
     
 docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 ````
+
+### GIT
+
+git config --global http.postBuffer 524288000
